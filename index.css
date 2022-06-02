@@ -1,1 +1,71 @@
+.container {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('https://i.ibb.co/pQ2pG4M/Design-Log-In-page-background.png');
+  background-size: 102%;
+  width: 101vw !important;
+  height: 100vh;
+  top: 0;
+  left: -1vw;
+  right: 0;
+  bottom: 0;
 
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-family: Helvetica;
+  color: #282828
+}
+
+input[type=text], input[type=password] {
+  background: transparent;
+  padding: 12px 20px;
+  border: 3px solid #aaa;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background: rgba (255,255,255,1);
+  border: 2px solid #aaa;
+  transition: 0.3s;
+  margin: 20px 15px;
+  border-radius: 10px;
+  background: transparent;
+  color: #282828
+}
+button:hover {
+  background: #bbb;
+  transform: scale(1.1)
+  
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background: rgba(225,225,225,0.85);
+  padding: 40px 80px 10px 80px;
+  width: 50vw;
+  height: min-content;
+  border-radius: 17px;
+  box-shadow: 0px 0px 20px 20px rgba(28, 176, 35, 0.2);
+  max-width: 450px
+}
+
+
+a {
+  width: 100%;
+  padding: 25px;
+}
+
+#buttonText{
+  margin: 0
+}
